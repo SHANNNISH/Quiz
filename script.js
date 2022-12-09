@@ -68,8 +68,8 @@ function getSelected() {
   let answer;
 
   answerEls.forEach((answerEl) => {
-    if (answerEl.cheked) {
-      answer = answer.El.id;
+    if (answerEl.checked) {
+      answer = answerEl.id;
     }
   });
 
